@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Цена</title> <link rel="stylesheet" href="CSS/price.css" type='text/css'><style>
+	body {background-color: #eeeeee}</style>
+	<script type="text/javascript">
+		function Кнопка()
+		{
+			if (confirm('Если вы хотите сделать закз тура, нажмите "ОК"')) {
+				var doc = window.open('Сделать заказ.html');
+			}
+			else 
+			{
+				dialog.setCancelable(false);
+			}
+		}
+</script>
+<script>
+    var now= new Date();
+		confirm('Акция -20% на все туры. до 24 января.\rTime: ' + now.getHours() + ':' + now.getMinutes() + '\rDate:' +now.getDate() + '/' + (now.getMonth() + 1) + '/' + (now.getYear()));
+  </script>
+  <script type="text/javascript">
+	class fun{
+		myfun(){
+				var x = Math.round(Math.random() * 4);
+				switch(x){
+					case 1:
+						alert("Поход в лес");
+						break;
+					case 2:
+						alert("Пляжный курорт");
+						break;
+					case 3:
+						alert("Пешее путешествие");
+						break;
+					case 4:
+						alert("Горнолыжный курорт");
+						break;
+					}
+				}
+			}
+	function Run(){
+		var click = new fun();
+		click.myfun();
+	}
+	</script>
+</head>
+<body>
+	<header>
+	<div class="header">
+	 	<h1 class="logo">
+			<img src="img/i.png" width="24" height="20"> TRAVELNOW
+			<a class="home" href="главная.html">home</a>
+			<a class="order" href="Сделать заказ.html">order</a>
+			<a class="about" href="мы.html">about</a>
+			<a class="services" href="местоположение.html">services</a>
+			<a class="services" href="map.html">map</a>
+			<a class="services" href="Цена.html">price</a>
+		</h1>
+	</div>
+</header>
+	<h1 class="text">PRICE<hr></h1>
+		<table>
+			<tr>
+				<th>Название</th>
+				<th>Описание</th>
+				<th>Цена</th>
+				<th></th>
+			</tr>
+			<tr>
+				<td>Выходные в финском лесу</td>
+				<td>Уникальная природа, знаменитые озера и нетронутый лес</td>
+				<td>100 руб</td>
+				<td><input class="button" type="button" name="Кнопка" value="Заказать" onclick="Кнопка()"></td>
+			</tr>
+			<tr>
+				<td>Золотые ворота Сан-Франциско</td>
+				<td>Круиз по бухте Сан-Франциско и проливу Золотые ворота с выходом в Тихий океан</td>
+				<td>100 руб</td>
+				<td><input class="button" type="button" name="Кнопка" value="Заказать" onclick="Кнопка()"></td>
+			</tr>
+			<tr>
+				<td>Горнолыжные туры на Эльбрус</td>
+				<td>Горнолыжные трассы для начинающих и опытных райдеров. Возможно обучение технике катания с инструктором. </td>
+				<td>100 руб</td>
+				<td><input class="button" type="button" name="Кнопка" value="Заказать" onclick="Кнопка()"></td>
+			</tr>
+		</table>
+		<p class="text2">
+			Не можете определиться с туром? Мы вам поможем!
+		</p>
+<div class="button2">
+	<div>	
+		<input class="button2" type="button" value="Выбрать случайный тур" OnClick="Run();">
+	</div>
+</div>
+</div>
+</body>
+</html>

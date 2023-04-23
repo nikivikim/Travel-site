@@ -1,0 +1,122 @@
+* {
+margin: 0;
+padding: 0;
+}
+.header { 
+  background-color: black;
+  min-height: 50px;
+  margin-bottom: 15px; 
+  margin-top: 0
+}
+.logo {
+  font-family: "fox & cat";
+  src: url("font/fox & cat.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal;
+  z-index: 2; 
+  color: white; 
+  font-size: 13pt;
+  margin-left: 50pt;
+}
+.home{font-family: "fox & cat";
+  src: url("font/fox & cat.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+  color: white;
+  font-size: 15pt;
+  margin-left: 61%; 
+  margin-top: 0px
+}
+.order{
+  font-family: "fox & cat";
+  src: url("font/fox & cat.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal;
+  color: white; 
+  font-size: 15pt;
+  margin-left: 2%; 
+  margin-top: 0px
+}
+.about{
+  font-family: "fox & cat";
+  src: url("font/fox & cat.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal;
+  color: white; 
+  font-size: 15pt;
+  margin-left: 2%; 
+  margin-top: 0px
+}
+.services{
+  font-family: "fox & cat";
+  src: url("font/fox & cat.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+  color: white; 
+  font-size: 15pt;
+  margin-left: 2%;
+  margin-top: 0px
+}
+h1 {
+  margin-bottom: 0px;
+}
+p.text {
+  margin-top: 20px;
+  margin-left: 20px
+}
+fieldset {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  padding: 10px;
+  margin-left: 20px
+}
+legend {
+  padding: 0px 3px;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+label {
+  width: 110px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 6px;
+}
+em {
+  font-weight: bold;
+  font-style: normal;
+  color: #f00;
+}
+input:focus {
+  background: #eaeaea;
+}
+input, textarea {
+  width: 249px;
+}
+textarea {
+  height: 100px;
+}
+select {
+  width: 254px;
+}
+input[type=checkbox] {
+  width: 10px;
+}
+input[type=submit] {
+  width: 170px;
+  padding: 10px;
+  margin-left: 20px
+}
+a:link {
+  color: white;
+  text-decoration: underline;
+}
+a:visited {
+  color: #666666;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: underline;
+}

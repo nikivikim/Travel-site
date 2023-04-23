@@ -1,0 +1,131 @@
+* {
+margin: 0;
+padding: 0;
+}
+.header {
+ background-color: black; 
+ min-height: 50px;
+ margin-bottom: 15px; 
+ margin-top: 0;
+}
+.logo {
+  font-family: "fox & cat";
+  src: url("font/fox & cat.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal;
+  z-index: 2; 
+  color: white; 
+  font-size: 13pt;
+  margin-left: 50pt;
+}
+.home{font-family: "fox & cat";
+  src: url("font/fox & cat.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+  color: white;
+  font-size: 15pt;
+  margin-left: 61%; 
+  margin-top: 0px
+}
+.order{
+  font-family: "fox & cat";
+  src: url("font/fox & cat.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal;
+  color: white; 
+  font-size: 15pt;
+  margin-left: 2%; 
+  margin-top: 0px
+}
+.about{
+  font-family: "fox & cat";
+  src: url("font/fox & cat.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal;
+  color: white; 
+  font-size: 15pt;
+  margin-left: 2%; 
+  margin-top: 0px
+}
+.services{
+  font-family: "fox & cat";
+  src: url("font/fox & cat.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+  color: white; 
+  font-size: 15pt;
+  margin-left: 2%;
+  margin-top: 0px
+}
+a:link {color: white;
+  text-decoration: underline;
+}
+a:visited { color: #666666;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: underline;
+}
+table {
+font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+font-size: 20px;
+border-collapse: collapse;
+text-align: center;
+margin: auto;
+margin-bottom: 5%
+}
+th, td:first-child {
+background: #747474;
+color: white;
+padding: 10px 20px;
+}
+th, td {
+border-style: solid;
+border-width: 0 1px 1px 0;
+border-color: white;
+}
+td {
+background:#c9c9c9 ;
+}
+th:first-child, td:first-child {
+text-align: left;
+}
+.text{
+ color: black;
+ font-size: 50px; 
+ font-family: "fox & cat";
+ src: url("font/fox & cat.ttf") format("truetype");  
+ font-style: bold; 
+ font-weight: normal; 
+ text-align: center;
+ margin-top: 5%; 
+ margin-bottom: 1%;}
+ hr {
+  border-top: 2px solid black;
+  width: 30%;  
+  margin: auto;
+  margin-top: 0.5%; 
+}
+input.button{
+  background-color: #747474;
+  color: white;
+}
+.button2{
+  background-color: #747474;
+  color: white;
+  margin: auto;
+  height: 25pt;
+  width: 150pt;
+  text-align: center;
+}
+.text2{
+	  font-size: 15pt;
+  font-style: normal;
+  font-family: "Neuron";
+  src: url("font/ofont.ru_Neuron.ttf") format("truetype");
+  text-align: center;
+   margin-bottom: 1%;
+}

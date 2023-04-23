@@ -1,0 +1,99 @@
+* {
+margin: 0;
+padding: 0;
+}
+.header{
+  margin-top: 0pt;
+  height: 50px;
+  background-color: black;
+  margin-bottom: 15px; 
+}
+.logo {
+  font-family: "fox & cat";
+  src: url("font/fox & cat.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal;
+  z-index: 2; 
+  color: white; 
+  font-size: 13pt;
+  margin-left: 50pt;
+}
+.home{font-family: "fox & cat";
+  src: url("font/fox & cat.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+  color: white;
+  font-size: 15pt;
+  margin-left: 61%; 
+  margin-top: 0px
+}
+.order{
+  font-family: "fox & cat";
+  src: url("font/fox & cat.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal;
+  color: white; 
+  font-size: 15pt;
+  margin-left: 2%; 
+  margin-top: 0px
+}
+.about{
+  font-family: "fox & cat";
+  src: url("font/fox & cat.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal;
+  color: white; 
+  font-size: 15pt;
+  margin-left: 2%; 
+  margin-top: 0px
+}
+.services{
+  font-family: "fox & cat";
+  src: url("font/fox & cat.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+  color: white; 
+  font-size: 15pt;
+  margin-left: 2%;
+  margin-top: 0px
+}
+.text{
+  color: black;
+  font-size: 50px; 
+  font-family: "fox & cat";
+  src: url("font/fox & cat.ttf") format("truetype");  
+  font-style: bold; 
+  font-weight: normal; 
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 1%}
+img.map{
+  height: 400pt;
+  width: 450pt;
+  margin: 10pt 100pt 30pt 180pt;
+  float: left;
+}
+a:link {color: white;
+  text-decoration: underline;
+}
+a:visited { color: #666666;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: underline;
+}
+hr {
+  border-top: 2px solid black;
+  width: 400pt;
+  margin: auto;
+}
+.contact{
+  margin-top: 150pt;
+  font-size: 30pt;
+  font-style: normal;
+  font-family: "Neuron";
+  src: url("font/ofont.ru_Neuron.ttf") format("truetype");
+}

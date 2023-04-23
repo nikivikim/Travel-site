@@ -1,0 +1,88 @@
+.logo {
+	font-family: "fox & cat";
+	src: url("font/fox & cat.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;  
+    z-index: 2; 
+    color: white; 
+    font-size: 13pt;
+	margin-left: 50pt
+}
+.home{
+	font-family: "fox & cat";
+	src: url("font/fox & cat.ttf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal;
+	color: white; 
+	font-size: 15pt;
+	margin-left: 61%; 
+	margin-top: 0px
+}
+.order{
+	font-family: "fox & cat";
+	src: url("font/fox & cat.ttf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal; 
+	color: white; 
+	font-size: 15pt;
+	margin-left: 2%; 
+	margin-top: 0px	
+}
+.about{
+	font-family: "fox & cat";
+	src: url("font/fox & cat.ttf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal; 
+	color: white; 
+	font-size: 15pt;
+	margin-left: 2%; 
+	margin-top: 0px
+}
+.services{
+	font-family: "fox & cat";
+	src: url("font/fox & cat.ttf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal; 
+	color: white; 
+	font-size: 15pt;
+	margin-left: 2%; 
+	margin-top: 0px
+}
+#text {
+	color: white;font-family: "fox & cat";
+	src: url("font/fox & cat.ttf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal; 
+	font-size: 120px; 
+	color: white; 
+	margin: 150px 0pt 10pt 80pt;
+}
+.text{
+	color: white; 
+	font-size: 15px; 
+	font-family: "fox & cat";
+	src: url("font/PoiretOne.ttf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal; 
+	margin-left: 150pt
+}
+hr {
+	border-top: 3px solid white;
+	width: 30%;
+}
+a:link {
+	color: white;
+  	text-decoration: underline;
+}
+a:visited { 
+	color: #666666;
+  	text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: underline;
+}

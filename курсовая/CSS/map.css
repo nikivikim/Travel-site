@@ -1,0 +1,88 @@
+* {
+margin: 0;
+padding: 0;
+}
+.header{
+  background-color: black;
+  height: 45px;
+  margin-bottom: 5px; 
+}
+.logo {
+  font-family: "fox & cat";
+  src: url("font/fox & cat.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal;
+  z-index: 2; 
+  color: white; 
+  font-size: 15pt;
+  margin-left: 50pt;
+}
+.home{font-family: "fox & cat";
+  src: url("font/fox & cat.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+  color: white;
+  font-size: 15pt;
+  margin-left: 61%; 
+  margin-top: 0px
+}
+.order{
+  font-family: "fox & cat";
+  src: url("font/fox & cat.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal;
+  color: white; 
+  font-size: 15pt;
+  margin-left: 2%; 
+  margin-top: 0px
+}
+.about{
+  font-family: "fox & cat";
+  src: url("font/fox & cat.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal;
+  color: white; 
+  font-size: 15pt;
+  margin-left: 2%; 
+  margin-top: 0px
+}
+.services{
+  font-family: "fox & cat";
+  src: url("font/fox & cat.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+  color: white; 
+  font-size: 15pt;
+  margin-left: 2%;
+  margin-top: 0px
+}
+.map{text-align: center; height:100pt width:600pt}
+a:link {color: white;
+  text-decoration: underline;
+}
+a:visited { color: #666666;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: underline;
+}
+.text{
+ color: black;
+ font-size: 50px; 
+ font-family: "fox & cat";
+ src: url("font/fox & cat.ttf") format("truetype");  
+ font-style: bold; 
+ font-weight: normal; 
+ text-align: center;
+ margin-top: 5%; 
+ margin-bottom: 1%
+}
+hr {
+ border-top: 2px solid black;
+ width: 30%; 
+ margin-top: 0.5%; 
+ margin: auto;
+}

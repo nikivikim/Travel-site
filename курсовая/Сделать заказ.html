@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Заказать</title>
+	<link rel="stylesheet" href="CSS/order.css" type='text/css'>
+	<style type="text/css">
+	body {background-color: #eeeeee}</style>
+</head>
+<body>
+	<div class="header">
+		<p class="logo">
+			<img src="img/i.png" width="24" height="20"> TRAVELNOW
+			<a class="home" href="главная.html">home</a>
+			<a class="order" href="Сделать заказ.html">order</a>
+			<a class="about" href="мы.html">about</a>
+			<a class="services" href="местоположение.html">services</a>
+			<a class="services" href="map.html">map</a>
+			<a class="services" href="Цена.html">price</a>
+		</p>
+	</div>
+	<form action="#">
+ 		<p class="text">
+ 			<i>Пожалуйста, заполните форму. Обязательные поля помечены </i><em>*</em>
+ 		</p>
+  <fieldset>
+    <legend>Контактная информация</legend>
+      <label for="name">Имя <em>*</em></label>
+      <input id="name"><br>
+      <label for="telephone">Телефон</label>
+      <input id="telephone"><br>
+      <label for="email">Email <em>*</em></label>
+      <input id="email"><br>
+  </fieldset>
+  <fieldset>
+    <legend>Заявка</legend>
+      <label for="comments">Пожалуйста укажите: название тура, дату начала тура, количество туристов.</label>
+      <textarea id="comments"></textarea>
+  </fieldset>
+  <p>
+  	<input type="submit" value="Отправить информацию">
+  </p>
+	</form>
+</body>
+</html>
